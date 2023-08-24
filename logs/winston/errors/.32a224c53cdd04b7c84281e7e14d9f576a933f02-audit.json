@@ -1,0 +1,60 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\Web Development\\Courses\\Programming Hero\\Level 2\\Microservice\\university-management-core-service-starter\\logs\\winston\\errors\\.32a224c53cdd04b7c84281e7e14d9f576a933f02-audit.json",
+    "files": [
+        {
+            "date": 1692516253605,
+            "name": "D:\\Web Development\\Courses\\Programming Hero\\Level 2\\Microservice\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-20-08-13-error.log",
+            "hash": "6278c12b8259c5ad40979aa81306048fc9e0fea76ca8b263923cbb97e9f23911"
+        },
+        {
+            "date": 1692551466609,
+            "name": "D:\\Web Development\\Courses\\Programming Hero\\Level 2\\Microservice\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-20-08-23-error.log",
+            "hash": "aca757637c86677a2eff7bf6ed9d15be1f8673b417362721cec73f6ca9a900ee"
+        },
+        {
+            "date": 1692554895530,
+            "name": "D:\\Web Development\\Courses\\Programming Hero\\Level 2\\Microservice\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-21-08-00-error.log",
+            "hash": "637f89e6901d115794d14548cad0aae86da454f42ddc80bc2b46b0d36331f511"
+        },
+        {
+            "date": 1692617196179,
+            "name": "D:\\Web Development\\Courses\\Programming Hero\\Level 2\\Microservice\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-21-08-17-error.log",
+            "hash": "6e5fc0749900f7a29117c2449415039978a95f1903da9153e8a5f6673c9fae11"
+        },
+        {
+            "date": 1692724404513,
+            "name": "D:\\Web Development\\Courses\\Programming Hero\\Level 2\\Microservice\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-22-08-23-error.log",
+            "hash": "37fa547614c315924a7423befe915fe91a2822a3522443d8ac0681fb2234bb5d"
+        },
+        {
+            "date": 1692772636535,
+            "name": "D:\\Web Development\\Courses\\Programming Hero\\Level 2\\Microservice\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-23-08-12-error.log",
+            "hash": "03673365eaa7fc6c4f602aa6f2f4ccb7ba3ba6a5006b6b0290246169007ece7e"
+        },
+        {
+            "date": 1692774052792,
+            "name": "D:\\Web Development\\Courses\\Programming Hero\\Level 2\\Microservice\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-23-08-13-error.log",
+            "hash": "4a586ed789a8cdf6cd4e1dea4edb12b5dc162f381bc8c00f0d9acbc0b126ef53"
+        },
+        {
+            "date": 1692855532473,
+            "name": "D:\\Web Development\\Courses\\Programming Hero\\Level 2\\Microservice\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-24-08-11-error.log",
+            "hash": "3189134e0c13d468ee4a956bd5d307bf633bea6c953b865a93f5e56aa9fdfac7"
+        },
+        {
+            "date": 1692856971824,
+            "name": "D:\\Web Development\\Courses\\Programming Hero\\Level 2\\Microservice\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-24-08-12-error.log",
+            "hash": "6e01a623c42421079afb532d85ab67e89d845d35e7a3dd2cabde3ded224edffb"
+        },
+        {
+            "date": 1692860763147,
+            "name": "D:\\Web Development\\Courses\\Programming Hero\\Level 2\\Microservice\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-24-08-13-error.log",
+            "hash": "31c54c3a01e54985d92c2c27439a5954887eee6f9165fd16089191356643420c"
+        }
+    ],
+    "hashType": "sha256"
+}
