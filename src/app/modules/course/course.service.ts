@@ -1,4 +1,4 @@
-import { Course } from '@prisma/client';
+import { Course, CourseFaculty } from '@prisma/client';
 import httpStatus from 'http-status';
 import ApiError from '../../../errors/ApiError';
 import prisma from '../../../shared/prisma';
@@ -49,6 +49,7 @@ const insertIntoDB = async (data: ICourseCreateData): Promise<any> => {
     const responseData = await prisma.course.findUnique({
       where: { id: newCourse.id },
       include: {
+        faculties: true,
         preRequisite: {
           include: {
             preRequisite: true,
@@ -72,6 +73,7 @@ const getAllFromDB = async () => {
     include: {
       preRequisite: true,
       preRequisiteFor: true,
+      faculties: true,
     },
   });
   return result;
@@ -157,6 +159,7 @@ const updateOneInDB = async (
   const responseData = await prisma.course.findUnique({
     where: { id },
     include: {
+      faculties: true,
       preRequisite: {
         include: {
           preRequisite: true,
@@ -172,8 +175,60 @@ const updateOneInDB = async (
   return responseData;
 };
 
+const assignFaculties = async (
+  id: string,
+  payload: string[]
+): Promise<CourseFaculty[]> => {
+  await prisma.courseFaculty.createMany({
+    data: payload.map((facultyId: string) => ({
+      courseId: id,
+      facultyId,
+    })),
+  });
+
+  const assignedFacultiesData = await prisma.courseFaculty.findMany({
+    where: {
+      courseId: id,
+    },
+    include: {
+      course: true,
+      faculty: true,
+    },
+  });
+
+  return assignedFacultiesData;
+};
+
+const removeFaculties = async (
+  id: string,
+  payload: string[]
+): Promise<CourseFaculty[] | null> => {
+  await prisma.courseFaculty.deleteMany({
+    where: {
+      courseId: id,
+      facultyId: {
+        in: payload,
+      },
+    },
+  });
+
+  const assignedFacultiesData = await prisma.courseFaculty.findMany({
+    where: {
+      courseId: id,
+    },
+    include: {
+      course: true,
+      faculty: true,
+    },
+  });
+
+  return assignedFacultiesData;
+};
+
 export const CourseService = {
   insertIntoDB,
   getAllFromDB,
   updateOneInDB,
+  assignFaculties,
+  removeFaculties,
 };

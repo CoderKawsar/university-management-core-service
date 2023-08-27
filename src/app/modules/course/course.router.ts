@@ -21,4 +21,20 @@ router.patch(
   CourseController.updateOneInDB
 );
 
+// assign faculties to a course
+router.post(
+  '/:id/assign-faculties',
+  auth(ENUM_USER_ROLE.SUPER_ADMIN, ENUM_USER_ROLE.ADMIN),
+  validateRequest(CourseValidation.assignOrRemoveFaculties),
+  CourseController.assignFaculties
+);
+
+// remove faculties from a course
+router.delete(
+  '/:id/remove-faculties',
+  auth(ENUM_USER_ROLE.SUPER_ADMIN, ENUM_USER_ROLE.ADMIN),
+  validateRequest(CourseValidation.assignOrRemoveFaculties),
+  CourseController.removeFaculties
+);
+
 export const CourseRoutes = router;

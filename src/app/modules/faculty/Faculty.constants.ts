@@ -1,5 +1,5 @@
-export const StudentSearchableFields = [
-  'studentId',
+export const FacultySearchableFields = [
+  'facultyId',
   'firstName',
   'middleName',
   'lastName',
@@ -7,9 +7,10 @@ export const StudentSearchableFields = [
   'contactNo',
   'gender',
   'bloodGroup',
+  'designation',
 ];
 
-export const StudentFilterableFields = [
+export const FacultyFilterableFields = [
   'searchTerm',
   'studentId',
   'firstName',
@@ -18,4 +19,5 @@ export const StudentFilterableFields = [
   'email',
   'contactNo',
   'gender',
+  'designation',
 ];
