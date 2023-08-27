@@ -54,6 +54,31 @@
             "date": 1692860763147,
             "name": "D:\\Web Development\\Courses\\Programming Hero\\Level 2\\Microservice\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-24-08-13-error.log",
             "hash": "31c54c3a01e54985d92c2c27439a5954887eee6f9165fd16089191356643420c"
+        },
+        {
+            "date": 1692864011246,
+            "name": "D:\\Web Development\\Courses\\Programming Hero\\Level 2\\Microservice\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-24-08-14-error.log",
+            "hash": "8e602858f76c31a27010548aa8677513a29071e88c709e17ef53797475a7cd6d"
+        },
+        {
+            "date": 1692869666780,
+            "name": "D:\\Web Development\\Courses\\Programming Hero\\Level 2\\Microservice\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-24-08-15-error.log",
+            "hash": "abc804c2349f1ae7750c45f83acebd42bc404af834d92df084422e6fef09b58c"
+        },
+        {
+            "date": 1693110961465,
+            "name": "D:\\Web Development\\Courses\\Programming Hero\\Level 2\\Microservice\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-27-08-10-error.log",
+            "hash": "f9951ecb62ffc90c948bb74cbeddc804c7f7e1ed1ee26641a8b0d795f39cfc59"
+        },
+        {
+            "date": 1693112555496,
+            "name": "D:\\Web Development\\Courses\\Programming Hero\\Level 2\\Microservice\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-27-08-11-error.log",
+            "hash": "d33f26752c66f616d46356b12fa8bac6b71f1a2b03fad5285ca70c10d540da85"
+        },
+        {
+            "date": 1693116228794,
+            "name": "D:\\Web Development\\Courses\\Programming Hero\\Level 2\\Microservice\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-27-08-12-error.log",
+            "hash": "b2e16a97572bd96d99e2ec84dfd8bed8a30cf61fa5bbb6cebb9cdbf2096b3cc9"
         }
     ],
     "hashType": "sha256"

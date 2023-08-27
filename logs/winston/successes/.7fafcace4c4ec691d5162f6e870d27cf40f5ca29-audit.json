@@ -54,6 +54,31 @@
             "date": 1692860763138,
             "name": "D:\\Web Development\\Courses\\Programming Hero\\Level 2\\Microservice\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-24-08-13-success.log",
             "hash": "689f36b901166ee1ffa9152b58bc3ae5aca5e23662b444b68b48d60872821a69"
+        },
+        {
+            "date": 1692864011242,
+            "name": "D:\\Web Development\\Courses\\Programming Hero\\Level 2\\Microservice\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-24-08-14-success.log",
+            "hash": "0e2dbea1a9205f81448e603fef0c4e116e22847a65c0e1f395aeb45fe3606daa"
+        },
+        {
+            "date": 1692869666775,
+            "name": "D:\\Web Development\\Courses\\Programming Hero\\Level 2\\Microservice\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-24-08-15-success.log",
+            "hash": "5f3592319ebbd85879cc8f4009b4d96a6e04150e039577d03ec31812f0ec7c38"
+        },
+        {
+            "date": 1693110961429,
+            "name": "D:\\Web Development\\Courses\\Programming Hero\\Level 2\\Microservice\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-27-08-10-success.log",
+            "hash": "6e6a453f18f98b56a58c560d5ea128b3fe06897db568ea5a98c66ffbddd37410"
+        },
+        {
+            "date": 1693112555492,
+            "name": "D:\\Web Development\\Courses\\Programming Hero\\Level 2\\Microservice\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-27-08-11-success.log",
+            "hash": "7641ffe88f65252ecbb580ce6ef629dab41075f673fd6fcad50598add90ffe79"
+        },
+        {
+            "date": 1693116228790,
+            "name": "D:\\Web Development\\Courses\\Programming Hero\\Level 2\\Microservice\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-27-08-12-success.log",
+            "hash": "e5250d1a2f9582027cccd7ace996f1c658a63ecd3a9f97a05ed15f229f11ce87"
         }
     ],
     "hashType": "sha256"
