@@ -173,7 +173,7 @@ model SemesterRegistration {
   id        String                      @id @default(uuid())
   startDate DateTime
   endDate   DateTime
-  status    SemesterRegistrationStatus?
+  status    SemesterRegistrationStatus? @default(UPCOMING)
   minCredit Float                       @default(0)
   maxCredit Float                       @default(0)
   createdAt DateTime                    @default(now())
